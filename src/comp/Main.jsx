@@ -77,7 +77,7 @@ export default function Main() {
                             id="content"
                             cols="30"
                             rows="5"
-                            className="border p-2 xl:w-1/2 lg:w-1/2 w-full rounded-2xl dark:text-black"
+                            className="border p-2 xl:w-1/2 lg:w-1/2 w-full h-auto rounded-2xl dark:text-black"
                             value={noteData.content}
                             onChange={handleChange}
                             placeholder="Take a note..."
